@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Jura:wght@300..700&display=swap"
+      rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products | Canny Tackle</title>
+    <link rel="icon" href="img/WormHookLight.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-bar-wrapper">
+          <div class="nav-bar">
+            <div class="logo">
+              <a href="index.html"
+                ><img src="img/WormHookNoBG.png" alt="Logo"
+              /></a>
+            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="utility-bar"></div>
+      <div class="page">
+        <div class="filter-pane"></div>
+        <div class="grid">
+          <div class="product-card" data-product-id="1">
+            <div class="product-img-wrapper">
+              <img
+                src="img/Fish_Food-removebg-preview.png"
+                alt="Image of fish food"
+                class="product-img" />
+              <button
+                id="product-1"
+                onclick="Favorite('product-1')"
+                class="favorite-button">
+                <svg
+                  class="heart-icon"
+                  id="product-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-heart-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+                </svg>
+              </button>
+            </div>
+            <div class="product-text">
+              <h3 class="product-title">Fish Food</h3>
+              <p class="product-description">
+                Parker Baits Fruit & Nuts Fish Bait (1kg)
+              </p>
+              <div class="star-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="reviews">(15)</span>
+              </div>
+              <p class="product-price">£15.99</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card" data-product-id="2">
+            <div class="product-img-wrapper">
+              <img
+                src="img/locust-removebg-preview.png"
+                alt="Image of locust"
+                class="product-img" />
+              <button
+                id="product-2"
+                onclick="Favorite('product-2')"
+                class="favorite-button">
+                <svg
+                  class="heart-icon"
+                  id="product-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-heart-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+                </svg>
+              </button>
+            </div>
+            <div class="product-text">
+              <h3 class="product-title">Locust</h3>
+              <p class="product-description">Reptile Livefood (Qty 6)</p>
+              <div class="star-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="reviews">(65)</span>
+              </div>
+              <p class="product-price">£7.69</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card" data-product-id="3">
+            <div class="product-img-wrapper">
+              <img
+                src="img/mealworms-removebg-preview.png"
+                alt="Image of product"
+                class="product-img" />
+              <button
+                id="product-3"
+                onclick="Favorite('product-3')"
+                class="favorite-button">
+                <svg
+                  class="heart-icon"
+                  id="product-3"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-heart-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+                </svg>
+              </button>
+            </div>
+            <div class="product-text">
+              <h3 class="product-title">Dried Mealworms</h3>
+              <p class="product-description">Dried Mealworms for Wild Birds</p>
+              <div class="star-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="reviews">(40)</span>
+              </div>
+              <p class="product-price">£13.50</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card" data-product-id="4">
+            <div class="product-img-wrapper">
+              <img
+                src="img/cockroach-removebg-preview.png"
+                alt="Image of cockroach"
+                class="product-img" />
+              <button
+                id="product-4"
+                onclick="Favorite('product-4')"
+                class="favorite-button">
+                <svg
+                  class="heart-icon"
+                  id="product-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-heart-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+                </svg>
+              </button>
+            </div>
+            <div class="product-text">
+              <h3 class="product-title">Live Cockroach</h3>
+              <p class="product-description">30-35mm 5-6 in a tub on average</p>
+              <div class="star-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="reviews">(40)</span>
+              </div>
+              <p class="product-price">£5.80</p>
+              <button class="product-button">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
