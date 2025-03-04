@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const product = button.closest(".product-card");
     const productId = product.dataset.productId;
 
-    // Check if this product is favorited
+    // Check if this product is favorite
     if (favorites.includes(productId)) {
       button.classList.add("active");
     }
